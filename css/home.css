@@ -1,0 +1,33 @@
+/* COPYRIGHT; 2018 DeathHackz - All this code belongs to me.
+COPYRIGHT; 2018 Pokemon. COPYRIGHT 1995–2018 Nintendo/Creatures Inc./GAME FREAK Inc.
+Pokemon, Pokemon character names and artwork are all trademarks of Nintendo.
+All Pokemon related content on the Service, including artwork, graphics, logos, downloads
+and other files, is the property of Pokemon and is protected by United States
+and international copyrights, trademarks and other intellectual property laws. Trademarks and
+copyrights for third-party games and characters are owned by the companies which market or
+license those products. */
+
+#features,#about,#data {
+    padding: 90px 0 20px;
+}
+
+#disclaimer {
+    padding: 90px 0 10px;
+}
+
+#license {
+    padding: 10px 0 20px;
+}
+
+#datepicker {
+    width: 215px;
+}
+
+h1 {
+    font-weight: 600 !important;
+}
+
+h4 {
+    font-weight: 500 !important;
+    padding-bottom: 15px;
+}
