@@ -1,6 +1,6 @@
 # Birthday Pok&eacute;mon Generator
 
-## Website is [HERE](https://deathhackz.github.io/Birthday-Pokemon-Generator/)
+## Website is [HERE](https://deathhackz.github.io/Birthday-Pokemon-Generator-init/)
 
 This website will generate a special pok&eacute;mon based on your birthday.
 
