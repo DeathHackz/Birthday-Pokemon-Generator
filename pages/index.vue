@@ -100,7 +100,7 @@ export default {
 .main {
   padding-top: 130px;
   height: 90vh;
-  background-image: url('https://deathhackz.gitlab.io/Birthday-Pokemon-Generator/resources/background.jpg');
+  background-image: url('~assets/background.jpg');
   background-size: cover;
   background-position: right bottom;
   background-repeat: no-repeat;
