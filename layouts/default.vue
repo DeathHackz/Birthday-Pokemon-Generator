@@ -37,4 +37,22 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
+
+.onlyprint {
+  display: none;
+}
+
+@media print {
+  @page {
+    size: landscape;
+  }
+
+  .dontprint {
+    display: none;
+  }
+
+  .onlyprint {
+    display: initial;
+  }
+}
 </style>
