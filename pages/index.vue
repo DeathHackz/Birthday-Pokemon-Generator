@@ -96,7 +96,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .main {
   padding-top: 130px;
   height: 90vh;
