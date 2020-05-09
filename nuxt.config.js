@@ -39,6 +39,9 @@ export default {
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt'
   ],
+  bootstrapVue: {
+    icons: true
+  },
   /*
    ** Build configuration
    */
