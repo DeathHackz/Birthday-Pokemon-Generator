@@ -9,6 +9,7 @@
           <b-nav-item to="/downloads" right>Downloads</b-nav-item>
           <b-nav-item
             href="https://github.com/DeathHackz/Birthday-Pokemon-Generator"
+            target="_blank"
             right
             >GitHub</b-nav-item
           >
