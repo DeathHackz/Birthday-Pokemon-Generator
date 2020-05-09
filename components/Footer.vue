@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-dark py-3">
+  <footer class="bg-dark py-3 dontprint">
     <b-container>
       <p class="text-white text-center my-0">
         Copyright &copy;DeathHackz 2018 - {{ year }}
