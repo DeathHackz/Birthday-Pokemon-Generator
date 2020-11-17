@@ -7,7 +7,7 @@
         </h1>
         <b-row align-v="center">
           <b-col></b-col>
-          <b-form-datepicker
+          <!-- <b-form-datepicker
             v-model="value"
             class="mx-2 datepicker"
             initial-date="2020-01-01"
@@ -17,10 +17,38 @@
             locale="en-US"
             menu-class="w-100"
             calendar-width="100%"
+            :date-format-options="{
+              month: 'long',
+              day: '2-digit',
+              year: undefined
+            }"
             :dark="dark"
             :show-decade-nav="showdecade"
             :hide-header="hideheader"
-          ></b-form-datepicker>
+          ></b-form-datepicker> -->
+          <b-dropdown
+            text="Select Your Birthday"
+            class="p-2"
+            menu-class="w-100"
+            block
+          >
+            <b-container>
+              <b-row cols="3">
+                <b-dropdown-item>JAN</b-dropdown-item>
+                <b-dropdown-item>FEB</b-dropdown-item>
+                <b-dropdown-item>MAR</b-dropdown-item>
+                <b-dropdown-item>APR</b-dropdown-item>
+                <b-dropdown-item>MAY</b-dropdown-item>
+                <b-dropdown-item>JUN</b-dropdown-item>
+                <b-dropdown-item>JUL</b-dropdown-item>
+                <b-dropdown-item>AUG</b-dropdown-item>
+                <b-dropdown-item>SEP</b-dropdown-item>
+                <b-dropdown-item>OCT</b-dropdown-item>
+                <b-dropdown-item>NOV</b-dropdown-item>
+                <b-dropdown-item>DEC</b-dropdown-item>
+              </b-row>
+            </b-container>
+          </b-dropdown>
           <b-col></b-col>
         </b-row>
         <b-row align-v="center" class="my-2">
