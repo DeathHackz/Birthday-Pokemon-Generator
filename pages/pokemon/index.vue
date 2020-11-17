@@ -30,11 +30,11 @@
         <b-col></b-col>
       </b-row>
       <hr />
-      <b-row align-v="center" class="my-2 onlyprint">
+      <!-- <b-row align-v="center" class="my-2 onlyprint">
         <b-col class="text-center">
           <h3>Find your special birthday pokemon at bdaypokemon.com!</h3>
         </b-col>
-      </b-row>
+      </b-row> -->
       <b-row align-v="center" class="my-2 dontprint">
         <b-col class="text-center">
           <b-button variant="success" @click="print()">Print Pokemon</b-button>
